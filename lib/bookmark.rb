@@ -6,5 +6,4 @@ class Bookmark
     @title = title
     @url = url
   end
-
 end
