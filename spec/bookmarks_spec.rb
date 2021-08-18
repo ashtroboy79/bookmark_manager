@@ -1,7 +1,12 @@
 require 'bookmarks'
+require 'clear_table'
+
+clear_table
 
 describe '.all' do
+
   it 'returns a list of all books' do
+    
     bookmarks = Bookmarks.all
     expect(bookmarks).to include 'https://www.makersacademy.com/'
     expect(bookmarks).to include 'https://www.google.com/'
