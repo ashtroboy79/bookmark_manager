@@ -8,3 +8,4 @@ describe '.all' do
     expect(bookmarks).to include 'https://www.twitter.com/'
   end
 end
+

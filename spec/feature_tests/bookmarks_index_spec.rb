@@ -4,3 +4,4 @@ feature 'displays bookmarks' do
     expect(page).to have_content 'https://www.makersacademy.com/'
   end
 end
+

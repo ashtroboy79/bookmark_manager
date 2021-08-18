@@ -4,3 +4,4 @@ feature 'displays index page' do
     expect(page).to have_content 'Hello World!'
   end
 end
+
